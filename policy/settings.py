@@ -24,8 +24,10 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
 
+    'jazzmin',
+
     'policyAPI.apps.PolicyapiConfig', ## 
-    # 'policyAPI',
+    'testAPI.apps.TestapiConfig', ## 
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -34,6 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'whitenoise',
+
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

@@ -5,7 +5,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('policyPro/', admin.site.urls),
     path('', include('policyAPI.urls')),
+    path('api/', include('testAPI.urls')),
 ]
-urlpatterns += staticfiles_urlpatterns()

@@ -8,3 +8,6 @@ def home(request):
 
 def selah(request):
     return render(request, 'policy/selah.html')
+
+def green(request):
+    return render(request, 'policy/green.html')

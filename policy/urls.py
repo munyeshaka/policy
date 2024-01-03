@@ -9,3 +9,4 @@ urlpatterns = [
     path('', include('policyAPI.urls')),
     path('api/', include('testAPI.urls')),
 ]
+urlpatterns += staticfiles_urlpatterns()

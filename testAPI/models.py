@@ -7,7 +7,7 @@ class Song(models.Model):
     rrr = models.CharField(max_length=500, blank=True, null=True)  
     title_1 = models.CharField(max_length=500, blank=True, null=True)  
     title_2 = models.CharField(max_length=500, blank=True, null=True)  
-    indirimbo = models.TextField(max_length=500, blank=True, null=True)  
+    indirimbo = models.TextField(max_length=5000, blank=True, null=True)  
     categorie = models.CharField(max_length=500, blank=True, null=True)
 
     def __str__(self):

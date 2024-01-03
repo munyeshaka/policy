@@ -10,3 +10,7 @@ urlpatterns = [
     path('api/', include('testAPI.urls')),
 ]
 urlpatterns += staticfiles_urlpatterns()
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes

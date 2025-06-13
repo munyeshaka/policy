@@ -1,2 +1,2 @@
 # policy
-privacy policy of diferentes app make by egeratech
+privacy policy of differentes app made by egeratech

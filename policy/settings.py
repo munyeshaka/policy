@@ -24,7 +24,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
 
-    'jazzmin',
+    # 'jazzmin',
 
     'policyAPI.apps.PolicyapiConfig', ## 
     'testAPI.apps.TestapiConfig', ## 

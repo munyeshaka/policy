@@ -1,17 +1,35 @@
-*.log
-*.pot
-*.pyc
-__pycache__/
-local_settings.py
-db.sqlite3
-media
-migrations
+# Ignore 'file and directory' only if it's in the root of the repo
+# Ignore 'file and directory' only if it's in the root of the repo
+/name_of_file_or_directory
+
+# Ignore 'file and directory' in any folder at any depth
+**/name_of_file_or_directory
+
+# OR: this also works and is simpler (ignores anywhere)
+name_of_file_or_directory
+# Ignore all .name_of_file_or_directory files in any folder at any depth 
+**/*.name_of_file_or_directory
 
 
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+#############
+#############
+**/*.pyc
+**/*.pyd
+**/*.sqlite3*
+**/*.map
+**/*.myenv
+**/*.test
+
+
+**/*.vscode
+
+**/_pycache_
+
+**/media
+**/venv
+**/env
+
+**/migrations
+**/*.db
+**/other_settings 
+
